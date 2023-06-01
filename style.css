@@ -23,12 +23,11 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column; 
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+  
     padding: 1rem;
     color: #312c29;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background-color: #ddbea9;
+    background-color: #70bdca;
     
 }
 
@@ -36,7 +35,7 @@ body{
     height: 100%;
     background-color:white;
     border-radius: 0px 0px 30px 30px;
-    font-family: Verdana, sans-serif;
+    font-family: Georgia, serif;
     font-size: 16px;
     padding: 3rem 1rem 1rem 3rem; 
 }
@@ -60,15 +59,7 @@ body{
     
 }
 
-
-
-a:link {
-    color: #312c29;
-    background-color: transparent;
-    text-decoration: none;
-}  
-    
-   .btn{
+.btn{
   padding: 1em 2em;
   border: none;
   font-weight: bold;
@@ -86,9 +77,9 @@ a:link {
 }
 
 .btn:hover {
-   color: #ffffff;
+  color: #ffffff;
   transform: scale(1.1);
-  outline: 2px solid #70bdca;
+  outline: 2px solid black;
   box-shadow: 4px 5px 17px -4px #268391;
 }
 
@@ -109,20 +100,58 @@ a:link {
   width: 550%;
 }
 
+
+
+/* .btn {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+  background-color: #BCB8B1;
+  border: 2px solid #8A817C;
+  border-radius: 30px;
+  box-shadow: #8A817C 4px 4px 0 0;
+  color: #312c29;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  line-height: 50px;
+  text-align: left;
+  touch-action: manipulation;
+  width: 600px;
+} */
+a:link {
+    color: #312c29;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+
 a:visited {
     color: #312c29;
     background-color: transparent;
     text-decoration: none;
+    border: none;
   }
 
   a:hover {
     color: #312c29;
     background-color: transparent;
     text-decoration: underline;
+    border: none;
   }
   
 
+/* .btn:hover {
+  background-color: #8A817C;
+}
 
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+} */
 
 .table1 table, td, th {
   border: 1px solid;
@@ -171,7 +200,7 @@ a:visited {
 
 .main p {
   font-size: 20px;
-font-family:Arial, Helvetica, sans-serif;
+  font-family: Georgia, serif;
 
 }
 
@@ -241,7 +270,7 @@ align-content: center;
   
 }
 
-#jal table{
+#janvi table{
   margin-left: 230px;
 }
 
@@ -257,3 +286,4 @@ align-content: center;
   width: 50%;
 
 }
+
