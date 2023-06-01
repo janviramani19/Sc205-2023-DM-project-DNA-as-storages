@@ -66,9 +66,9 @@ a:link {
     color: #312c29;
     background-color: transparent;
     text-decoration: none;
+}  
     
-    
-    .btn{
+   .btn{
   padding: 1em 2em;
   border: none;
   font-weight: bold;
@@ -107,7 +107,6 @@ a:link {
 
 .btn:hover::before {
   width: 550%;
-}
 }
 
 a:visited {
